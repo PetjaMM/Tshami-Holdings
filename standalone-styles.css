@@ -193,7 +193,7 @@ body {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(22, 41, 76, 0.95) 0%, rgba(22, 41, 76, 0.85) 100%);
+    background: linear-gradient(135deg, #32647dac 0%,#32647d9c 100%);
 }
 
 .hero-content {
@@ -521,7 +521,7 @@ body {
 .values-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .values-overlay {
